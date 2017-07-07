@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3028">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#0000ff;stroke-width:1.10000002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3030"
+         width="96.974648"
+         height="98.994949"
+         x="-209.1897"
+         y="204.56898" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3883">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3885"
+         width="101.52033"
+         height="108.08632"
+         x="0.045629319"
+         y="-7.1788573" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="296.2081"
+     inkscape:cy="775.67698"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#d40000;fill-opacity:1;stroke:none"
+       id="rect3800"
+       width="320"
+       height="155"
+       x="222"
+       y="209.36218"
+       inkscape:export-filename="C:\Users\User1\Documents\GitHub\tyrobot\firmware\background.png"
+       inkscape:export-xdpi="88.443428"
+       inkscape:export-ydpi="88.443428" />
+    <rect
+       style="fill:#003380;fill-opacity:1;stroke:none"
+       id="rect3802"
+       width="160"
+       height="155"
+       x="222"
+       y="209.36218"
+       inkscape:export-filename="C:\Users\User1\Documents\GitHub\tyrobot\firmware\background.png"
+       inkscape:export-xdpi="88.443428"
+       inkscape:export-ydpi="88.443428" />
+    <rect
+       style="fill:#d40000;fill-opacity:1;stroke:none"
+       id="rect3804"
+       width="80"
+       height="85"
+       x="222"
+       y="364.36218"
+       inkscape:export-filename="C:\Users\User1\Documents\GitHub\tyrobot\firmware\background.png"
+       inkscape:export-xdpi="88.443428"
+       inkscape:export-ydpi="88.443428" />
+    <g
+       id="g3018"
+       transform="matrix(0.91216433,0,0,0.91216433,403.3195,172.99294)"
+       clip-path="url(#clipPath3028)"
+       style="fill:#000000"
+       inkscape:export-filename="C:\Users\User1\Documents\GitHub\tyrobot\firmware\background.png"
+       inkscape:export-xdpi="88.443428"
+       inkscape:export-ydpi="88.443428">
+      <switch
+         id="switch3000"
+         style="fill:#000000">
+        <foreignObject
+           id="foreignObject3002"
+           height="1"
+           width="1"
+           y="0"
+           x="0"
+           requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" />
+        <g
+           id="g3004"
+           i:extraneous="self"
+           style="fill:#000000">
+          <path
+             id="path3006"
+             d="m -155,295.8 c -9.7,0 -18.8,-3.8 -25.7,-10.6 -6.9,-6.9 -10.6,-16 -10.6,-25.7 0,-9.7 3.8,-18.8 10.6,-25.7 2.3,-2.3 5.9,-2.3 8.2,0 2.3,2.3 2.3,5.9 0,8.2 -4.7,4.7 -7.2,10.9 -7.2,17.5 0,6.6 2.6,12.8 7.2,17.5 4.7,4.7 10.9,7.2 17.5,7.2 6.6,0 12.8,-2.6 17.5,-7.2 4.7,-4.7 7.2,-10.9 7.2,-17.5 0,-6.6 -2.6,-12.8 -7.2,-17.5 -2.3,-2.3 -2.3,-5.9 0,-8.2 2.3,-2.3 5.9,-2.3 8.2,0 6.9,6.9 10.6,16 10.6,25.7 0,9.7 -3.8,18.8 -10.6,25.7 -6.9,6.8 -16,10.6 -25.7,10.6 z m 5.8,-44 v -27.7 c 0,-3.2 -2.6,-5.8 -5.8,-5.8 -3.2,0 -5.8,2.6 -5.8,5.8 v 27.7 c 0,3.2 2.6,5.8 5.8,5.8 3.2,0 5.8,-2.6 5.8,-5.8 z"
+             inkscape:connector-curvature="0"
+             style="fill:#000000" />
+        </g>
+      </switch>
+      <text
+         id="text3008"
+         font-weight="bold"
+         font-size="5px"
+         y="322"
+         x="-205"
+         style="font-size:5px;font-weight:bold;fill:#000000;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">Created by Gregor Cresnar</text>
+      <text
+         id="text3010"
+         font-weight="bold"
+         font-size="5px"
+         y="327"
+         x="-205"
+         style="font-size:5px;font-weight:bold;fill:#000000;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">from the Noun Project</text>
+    </g>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3806"
+       width="160"
+       height="85"
+       x="302"
+       y="364.36218"
+       ry="0"
+       inkscape:export-filename="C:\Users\User1\Documents\GitHub\tyrobot\firmware\background.png"
+       inkscape:export-xdpi="88.443428"
+       inkscape:export-ydpi="88.443428" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect3808"
+       width="80"
+       height="85"
+       x="462"
+       y="364.36218"
+       inkscape:export-filename="C:\Users\User1\Documents\GitHub\tyrobot\firmware\background.png"
+       inkscape:export-xdpi="88.443428"
+       inkscape:export-ydpi="88.443428" />
+    <path
+       id="path3812"
+       d="m 534.71657,409.81304 c -3.94541,-1.05739 -4.83952,-10.30881 -1.60304,-12.17691 1.06092,-0.61493 1.88364,-1.48713 2.42718,-2.49292 -0.84181,-3.06967 -3.71428,-7.49218 -5.335,-9.45923 -1.18461,-0.0551 -2.39608,0.21558 -3.4987,0.85241 -3.53052,2.03986 -10.82903,-3.41601 -9.74196,-7.47663 0.33997,-1.26872 0.16044,-2.80744 -0.11663,-3.70651 -2.00663,-1.03759 -6.75851,-2.43354 -10.2876,-2.77917 -0.76053,0.55343 -1.63132,1.89142 -1.97059,3.16863 -1.15139,4.29386 -10.26287,4.91798 -12.2172,1.53377 -0.65238,-1.13089 -1.85396,-2.18404 -2.68446,-2.53037 -2.283,0.69196 -7.24409,3.56797 -9.25072,5.22826 0.13853,1.17614 0.16539,2.5424 0.83969,3.70863 1.95291,3.38491 -3.33614,10.91173 -7.51268,9.79285 -1.37404,-0.36754 -2.81593,-0.26293 -3.99206,0.22123 -0.96904,2.14587 -2.43567,7.8053 -2.5742,10.08829 0.27707,0.6227 1.92888,1.71613 3.24991,2.06954 5.68487,1.52388 5.7294,9.8607 1.61082,12.2384 -1.16341,0.67218 -2.16001,1.60517 -2.57491,2.78201 0.69197,2.21372 3.47256,7.08081 5.27139,9.15671 1.17613,0.13783 2.54239,-0.16398 3.70933,-0.83898 3.67824,-2.12538 11.03471,2.87247 9.79143,7.51409 -0.32301,1.20794 -0.14419,2.47878 0.0629,3.72489 2.76787,1.17613 7.77491,2.83077 10.54277,2.7615 0.89906,-0.8305 1.45391,-1.98755 1.76985,-3.16863 1.08849,-4.06274 10.07415,-5.35903 12.19741,-1.68079 0.59301,1.02841 1.42351,2.00451 2.39184,2.55794 2.9057,-0.8305 8.01381,-3.68883 9.74549,-5.48766 0.0679,-1.31396 -0.42691,-2.41164 -1.04184,-3.47892 -2.29501,-3.97156 3.06614,-10.92586 7.47451,-9.74408 1.20723,0.32231 2.5219,0.21346 3.62947,-0.0629 0.96833,-2.42224 2.5742,-6.74932 2.84986,-10.34698 -0.96833,-1.10687 -1.88718,-1.62637 -3.16227,-1.96847 z m -13.43221,2.68376 c -2.69082,10.04871 -13.01731,16.00994 -23.0646,13.31841 -10.04588,-2.69295 -16.00711,-13.02155 -13.31558,-23.06956 2.69153,-10.048 13.01801,-16.00994 23.06389,-13.3177 10.04659,2.69224 16.00853,13.01943 13.31629,23.06885 z"
+       clip-rule="evenodd"
+       inkscape:connector-curvature="0"
+       style="fill:#333333;fill-rule:evenodd"
+       inkscape:export-filename="C:\Users\User1\Documents\GitHub\tyrobot\firmware\background.png"
+       inkscape:export-xdpi="88.443428"
+       inkscape:export-ydpi="88.443428" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3845"
+       width="91.418808"
+       height="80.812202"
+       x="256.07367"
+       y="244.74522"
+       inkscape:export-filename="C:\Users\User1\Documents\GitHub\tyrobot\firmware\background.png"
+       inkscape:export-xdpi="88.443428"
+       inkscape:export-ydpi="88.443428" />
+    <g
+       id="g3838"
+       transform="translate(252.03561,236.16147)"
+       inkscape:export-filename="C:\Users\User1\Documents\GitHub\tyrobot\firmware\background.png"
+       inkscape:export-xdpi="88.443428"
+       inkscape:export-ydpi="88.443428">
+      <g
+         id="g3822">
+	<path
+   id="path3824"
+   d="m 41.751,59.098 v 6.119 L 20,55.789 V 50.557 L 41.751,41.13 v 6.162 l -15.156,5.839 15.156,5.967 z"
+   inkscape:connector-curvature="0" />
+
+	<path
+   id="path3826"
+   d="m 55.2,41 -6.055,24.93 c -0.201,0.821 -0.377,1.471 -0.529,1.946 -0.151,0.476 -0.382,0.849 -0.691,1.112 -0.31,0.268 -0.761,0.4 -1.352,0.4 -1.47,0 -2.206,-0.636 -2.206,-1.902 0,-0.332 0.145,-1.16 0.433,-2.486 l 6.033,-24.93 c 0.317,-1.326 0.619,-2.234 0.907,-2.724 0.289,-0.49 0.851,-0.735 1.688,-0.735 0.721,0 1.271,0.173 1.653,0.519 0.382,0.346 0.573,0.822 0.573,1.427 0,0.447 -0.152,1.261 -0.454,2.443 z"
+   inkscape:connector-curvature="0" />
+
+	<path
+   id="path3828"
+   d="M 80,55.789 58.249,65.26 v -6.119 l 15.2,-5.967 -15.2,-5.882 V 41.216 L 80,50.6 v 5.189 z"
+   inkscape:connector-curvature="0" />
+
+</g>
+      <path
+         id="path3830"
+         d="M 94,6 H 6 C 2.687,6 0,8.687 0,12 v 76 c 0,3.313 2.687,6 6,6 h 88 c 3.314,0 6,-2.688 6,-6 V 12 C 100,8.686 97.314,6 94,6 z m -15,4 c 2.205,0 4,1.794 4,4 0,2.206 -1.795,4 -4,4 -2.205,0 -4,-1.794 -4,-4 0,-2.206 1.795,-4 4,-4 z m -11,0 c 2.205,0 4,1.794 4,4 0,2.206 -1.795,4 -4,4 -2.205,0 -4,-1.794 -4,-4 0,-2.206 1.795,-4 4,-4 z M 94,88 H 6 V 22 H 94 V 88 z M 90,18 c -2.205,0 -4,-1.794 -4,-4 0,-2.206 1.795,-4 4,-4 2.205,0 4,1.794 4,4 0,2.206 -1.795,4 -4,4 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g3871"
+       transform="translate(417.14738,232.73118)"
+       clip-path="url(#clipPath3883)"
+       style="fill:#ffffff"
+       inkscape:export-filename="C:\Users\User1\Documents\GitHub\tyrobot\firmware\background.png"
+       inkscape:export-xdpi="88.443428"
+       inkscape:export-ydpi="88.443428">
+      <g
+         id="g3849"
+         style="fill:#ffffff">
+        <path
+           id="path3851"
+           d="M 33.814,37.085 C 28.068,31.347 22.324,25.599 16.582,19.858 1.182,36.905 1.137,62.905 16.461,80.004 L 33.699,62.77 c -5.91,-7.528 -5.869,-18.2 0.115,-25.685 z m -12.55,18.142 c 0,0.514 -0.365,0.721 -0.811,0.465 l -9.049,-5.225 c -0.445,-0.256 -0.445,-0.678 0,-0.934 l 9.049,-5.223 c 0.445,-0.258 0.811,-0.049 0.811,0.467 v 10.45 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+        <path
+           id="path3853"
+           d="M 62.768,33.699 C 68.475,27.994 74.174,22.291 79.881,16.587 79.926,16.544 79.973,16.513 80.018,16.474 62.971,1.185 37.074,1.179 20.016,16.444 c 5.748,5.747 11.49,11.493 17.234,17.237 7.48,-5.853 18.049,-5.849 25.518,0.018 z M 44.311,20.455 49.534,11.406 c 0.256,-0.443 0.676,-0.443 0.932,0 l 5.223,9.049 c 0.258,0.443 0.049,0.809 -0.467,0.809 H 44.775 c -0.511,-10e-4 -0.722,-0.366 -0.464,-0.809 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+        <path
+           id="path3855"
+           d="M 37.107,66.207 C 31.365,71.95 25.621,77.694 19.879,83.44 36.971,98.862 63.051,98.855 80.139,83.417 74.391,77.673 68.653,71.929 62.91,66.186 55.385,72.202 44.639,72.209 37.107,66.207 z m 18.581,13.34 -5.223,9.049 c -0.256,0.443 -0.676,0.443 -0.932,0 L 44.31,79.547 c -0.258,-0.443 -0.047,-0.811 0.465,-0.811 H 55.22 c 0.516,10e-4 0.725,0.368 0.468,0.811 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+        <path
+           id="path3857"
+           d="m 83.422,19.867 c -0.041,0.047 -0.068,0.096 -0.119,0.145 -5.697,5.699 -11.395,11.398 -17.098,17.1 5.965,7.473 5.996,18.118 0.109,25.633 5.742,5.746 11.49,11.491 17.238,17.235 15.303,-17.095 15.266,-43.074 -0.13,-60.113 z m 5.172,30.6 -9.053,5.225 c -0.439,0.256 -0.807,0.049 -0.807,-0.465 v -10.45 c 0,-0.516 0.367,-0.725 0.807,-0.467 l 9.053,5.223 c 0.439,0.256 0.439,0.678 0,0.934 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+      </g>
+      <path
+         id="path3859"
+         d="m 64.936,50.002 c 0,-8.25 -6.688,-14.938 -14.938,-14.938 -8.248,0 -14.934,6.688 -14.934,14.938 0,8.246 6.686,14.934 14.934,14.934 8.25,0 14.938,-6.688 14.938,-14.934 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff" />
+      <text
+         id="text3861"
+         font-weight="bold"
+         font-size="5px"
+         y="115"
+         x="0"
+         style="font-size:5px;font-weight:bold;fill:#ffffff;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">Created by Federico Panzano</text>
+      <text
+         id="text3863"
+         font-weight="bold"
+         font-size="5px"
+         y="120"
+         x="0"
+         style="font-size:5px;font-weight:bold;fill:#ffffff;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">from the Noun Project</text>
+    </g>
+  </g>
+</svg>
