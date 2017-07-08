@@ -44,7 +44,7 @@ TyroBot::TyroBot(Adafruit_ILI9341 *tft, Adafruit_LIS3DH *lis)
   LEFT_ARM = 6;
   
   //Step Constants
-  LIFT_HEIGHT = 10; //Decrease if steps are too big and the robot is falling over. Increase of the robot is dragging his feet
+  LIFT_HEIGHT = 6; //Decrease if steps are too big and the robot is falling over. Increase of the robot is dragging his feet
   STEP_DISTANCE = 25; //Decrease if robot is tipping over or not walking straight increase of robot is taking too tiny steps
   STEP_SPEED = 250; //in milliseconds
 
@@ -53,9 +53,9 @@ TyroBot::TyroBot(Adafruit_ILI9341 *tft, Adafruit_LIS3DH *lis)
 
   //Servo Positions when robot is at rest
   LL_CENTER = 85;
-  LF_CENTER = 85;
+  LF_CENTER = 80;
   RL_CENTER = 110;
-  RF_CENTER = 120;
+  RF_CENTER = 110;
   HEAD_CENTER = 80;
   RIGHT_ARM_CENTER = 90;
   LEFT_ARM_CENTER = 90;
@@ -696,27 +696,27 @@ void TyroBot::calibrate() {
   
   ll.attach(LEFT_LEG);
   ll.write(LL_CENTER);
-  delay(500);
+  delay(STEP_SPEED);
   ll.detach();
   
   lf.attach(LEFT_FOOT);
   lf.write(LF_CENTER);
-  delay(500);
+  delay(STEP_SPEED);
   lf.detach();
   
   rl.attach(RIGHT_LEG);
   rl.write(RL_CENTER);
-  delay(500);
+  delay(STEP_SPEED);
   rl.detach();
   
   rf.attach(RIGHT_FOOT);
   rf.write(RF_CENTER);
-  delay(500);
+  delay(STEP_SPEED);
   rf.detach();
 
   head.attach(HEAD);
   head.write(HEAD_CENTER);
-  delay(500);
+  delay(STEP_SPEED);
   head.detach();
     
   _lis->read();
@@ -728,7 +728,7 @@ void TyroBot::liftRightFoot() {
   lf.attach(LEFT_FOOT);
   rf.write(RF_CENTER - LIFT_HEIGHT*4);
   delay(50);
-  lf.write(LF_CENTER - LIFT_HEIGHT*2);
+  lf.write(LF_CENTER - LIFT_HEIGHT*3);
   delay(STEP_SPEED);
 }
 
@@ -746,9 +746,9 @@ void TyroBot::liftLeftFoot() {
   //Lift left foot off the ground
   rf.attach(RIGHT_FOOT);
   lf.attach(LEFT_FOOT);
-  rf.write(RF_CENTER + LIFT_HEIGHT);
+  lf.write(LF_CENTER + LIFT_HEIGHT * 3);
   delay(50);
-  lf.write(LF_CENTER + LIFT_HEIGHT);
+  rf.write(RF_CENTER + LIFT_HEIGHT * 3);
   delay(STEP_SPEED);
 }
 
@@ -803,6 +803,7 @@ void TyroBot::forward(int steps) { //Take a step forward
     checkForFall();
   }
   if (cali == false) {
+  liftRightFoot();
   calibrate();
   delay(STEP_SPEED*2);
   }
