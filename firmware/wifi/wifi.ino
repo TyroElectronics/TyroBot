@@ -36,6 +36,8 @@ void enterBootloader() {
 }
 
 void setup() {
+  pinMode(0, OUTPUT);
+  digitalWrite(0, 1);
   Serial.begin(9600);
 }
 
@@ -81,6 +83,7 @@ void loop() {
         }
         else {
           Serial.write("Not connected.");
+          digitalWrite(0, 0);
         }
       }
       //IFTT mode

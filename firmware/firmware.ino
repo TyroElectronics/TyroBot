@@ -24,12 +24,11 @@ void loop()
 {
   bot.connectAccel(); //Connect to the accelerometer 
   bot.menu(); //display the default splash screen on startup
+  
   //Any code below runs when "run program" is tapped in TyroBot's menu
-  //bot.token = "b8354jvkbG7ZSitd6ygT4z";
-  //bot.IFTT("test");
-  //bot.shakeHead();
-  //bot.waveRightArm(1);
-  //bot.waveLeftArm(1);
-  delay(10000);
+  bot.forward(4);
+  bot.turnRight(2);
+  bot.shakeHead();
+  bot.liftRightFoot();
 }
 

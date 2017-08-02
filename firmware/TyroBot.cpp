@@ -172,6 +172,8 @@ void TyroBot::connectWifi(char ssid[], char pass[]) {
         SerialUSB.print("RSSI:");
         SerialUSB.println(rssi);
         connection = true;
+        pinMode(8, OUTPUT);
+        digitalWrite(8,1);
         break;
       }
     }
@@ -659,7 +661,7 @@ void TyroBot::lookLeft() {
 void TyroBot::connectAccel() { 
   //Setup Accelerometer
   if (! _lis->begin(0x18)) {   // change this to 0x19 for alternative i2c address
-    while (1);
+    Serial.println("Could not connect to accelerometer");
   }
   _lis->setRange(LIS3DH_RANGE_4_G);
   _lis->read();
