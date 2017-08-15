@@ -4,7 +4,7 @@
  *  GNU General Public License 3.0
  */
 
-#include "TyroBot.h" //include this library whenever using TyroBot
+#include <TyroBot.h> //include this library whenever using TyroBot
 
 char ssid[] = "spadgenske";
 char pass[] = "68mustang";
