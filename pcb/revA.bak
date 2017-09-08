@@ -875,7 +875,7 @@ VBAT
 Text Label 4200 6050 1    60   ~ 0
 BAT_VCC
 Text Label 575  2100 0    60   ~ 0
-BAT_VCC
+A4
 $Comp
 L ili9341-18p U7
 U 1 1 58716314
@@ -1590,5 +1590,5 @@ Wire Wire Line
 Wire Wire Line
 	4700 2200 5050 2200
 Text Label 5050 2200 2    60   ~ 0
-A4
+BAT_VCC
 $EndSCHEMATC

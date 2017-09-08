@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/User1/Documents/GitHub/tyrobot/pcb/revA.sch)
-    (date "5/22/2017 10:29:12 AM")
+    (date "9/8/2017 2:45:06 PM")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -263,7 +263,7 @@
       (tstamp 5871F031))
     (comp (ref P3)
       (value espprog)
-      (footprint user:espprog)
+      (footprint Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm)
       (libsource (lib conn) (part CONN_01X04))
       (sheetpath (names /) (tstamps /))
       (tstamp 58728A0B))
@@ -612,8 +612,8 @@
         (pin (num 17) (name XR) (type input))
         (pin (num 18) (name YD) (type input)))))
   (libraries
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical atmel)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\atmel.lib"))
     (library (logical ESP8266)
       (uri C:\Users\User1\Documents\GitHub\ESP8266\kicad-ESP8266-master\ESP8266.lib))
     (library (logical lis3dh)
@@ -622,10 +622,10 @@
       (uri C:\Users\User1\Documents\GitHub\tyrobot\pcb\mcp73831.lib))
     (library (logical ili9341-18p)
       (uri C:\Users\User1\Documents\GitHub\tyrobot\pcb\ili9341-18p.lib))
-    (library (logical atmel)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\atmel.lib"))
     (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
     (net (code 1) (name "Net-(R4-Pad2)")
       (node (ref R4) (pin 2))
