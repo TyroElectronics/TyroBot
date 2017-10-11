@@ -42,13 +42,13 @@ TyroBot::TyroBot(Adafruit_ILI9341 *tft, Adafruit_LIS3DH *lis)
   HEAD = 2;
   RIGHT_ARM = 12;
   LEFT_ARM = 6;
-  
-  //Step Constants
-  LIFT_HEIGHT = 6;//Decrease if steps are too big and the robot is falling over. Increase of the robot is dragging his feet
-  STEP_DISTANCE = 25; //Decrease if robot is tipping over or not walking straight increase of robot is taking too tiny steps
-  STEP_SPEED = 250; //in milliseconds
 
-  LEFT_TRIM = 50; //If the robot is walking to the left decrease this number in multiples of 5
+  //Step Constants
+  LIFT_HEIGHT = 5;//Decrease if steps are too big and the robot is falling over. Increase of the robot is dragging his feet
+  STEP_DISTANCE = 20; //Decrease if robot is tipping over or not walking straight increase of robot is taking too tiny steps
+  STEP_SPEED = 300; //in milliseconds
+
+  LEFT_TRIM = 30; //If the robot is walking to the left decrease this number in multiples of 5
   RIGHT_TRIM = 140; //If the robot is walking to the right decrease this number in multiples of 5
 
   //Servo Positions when robot is at rest
@@ -68,9 +68,9 @@ TyroBot::TyroBot(Adafruit_ILI9341 *tft, Adafruit_LIS3DH *lis)
    Servo head;
    Servo leftArm;
    Servo rightArm;
-  
+
   cali = true;
-  
+
   //Accelerometer
   maxX = 1500;
   minX = -1000;
@@ -162,8 +162,8 @@ void TyroBot::connectWifi(char ssid[], char pass[]) {
         int ind1;
         String rssiStr;
         String ipStr;
-        ind1 = credentials.indexOf(',');  
-        rssiStr = credentials.substring(0, ind1);   
+        ind1 = credentials.indexOf(',');
+        rssiStr = credentials.substring(0, ind1);
         ipStr = credentials.substring(ind1 + 1);
         ipStr.toCharArray(ip, 50);
         rssiStr.toCharArray(rssi, 50);
@@ -384,7 +384,7 @@ void TyroBot::selfProgram() {
   _tft->setCursor(20, 138);
   _tft->setTextColor(ILI9341_RED);  _tft->setTextSize(4);
   _tft->println("Home");
-  
+
   while (1) {
     if (checkForPress() == true) {
       int x = 0;
@@ -409,7 +409,7 @@ void TyroBot::selfProgram() {
                 cali = false;
               }
               forward(2);
-              
+
             }
             else if (program[i] == 2) {
               SerialUSB.println("right");
@@ -435,7 +435,7 @@ void TyroBot::selfProgram() {
           break;
         }
       }
-      
+
       if (x < 58) {
         if (y > 12 and y < 62) {
           program[key] = 1;
@@ -658,7 +658,7 @@ void TyroBot::lookLeft() {
   head.detach();
 }
 
-void TyroBot::connectAccel() { 
+void TyroBot::connectAccel() {
   //Setup Accelerometer
   if (! _lis->begin(0x18)) {   // change this to 0x19 for alternative i2c address
     Serial.println("Could not connect to accelerometer");
@@ -689,28 +689,28 @@ void TyroBot::checkForFall() {
   }
 }
 
-void TyroBot::calibrate() { 
+void TyroBot::calibrate() {
   _lis->read();
   rf.detach();
   ll.detach();
   lf.detach();
   rl.detach();
-  
+
   ll.attach(LEFT_LEG);
   ll.write(LL_CENTER);
   delay(STEP_SPEED);
   ll.detach();
-  
+
   lf.attach(LEFT_FOOT);
   lf.write(LF_CENTER);
   delay(STEP_SPEED);
   lf.detach();
-  
+
   rl.attach(RIGHT_LEG);
   rl.write(RL_CENTER);
   delay(STEP_SPEED);
   rl.detach();
-  
+
   rf.attach(RIGHT_FOOT);
   rf.write(RF_CENTER);
   delay(STEP_SPEED);
@@ -720,7 +720,7 @@ void TyroBot::calibrate() {
   head.write(HEAD_CENTER);
   delay(STEP_SPEED);
   head.detach();
-    
+
   _lis->read();
 }
 
@@ -740,7 +740,7 @@ void TyroBot::rightFootForward() {
   rl.attach(RIGHT_LEG);
   ll.write(LL_CENTER + STEP_DISTANCE);
   delay(500);
-  rl.write(RL_CENTER + STEP_DISTANCE);
+  rl.write(RL_CENTER + STEP_DISTANCE + 10);
   delay(STEP_SPEED);
 }
 
@@ -759,7 +759,7 @@ void TyroBot::leftFootForward() {
   rl.attach(RIGHT_LEG);
   rl.write(RL_CENTER - STEP_DISTANCE);
   delay(500);
-  ll.write(LL_CENTER - STEP_DISTANCE);
+  ll.write(LL_CENTER - STEP_DISTANCE + 5);
   delay(STEP_SPEED);
 }
 
@@ -786,7 +786,7 @@ void TyroBot::footDown() {
   lf.attach(LEFT_FOOT);
   rf.write(RF_CENTER);
   lf.write(LF_CENTER);
-  delay(STEP_SPEED); 
+  delay(STEP_SPEED);
 }
 
 void TyroBot::forward(int steps) { //Take a step forward
@@ -900,4 +900,3 @@ void TyroBot::IFTT(char event[]) {
   Serial.write(",");
   Serial.write(event);
 }
-

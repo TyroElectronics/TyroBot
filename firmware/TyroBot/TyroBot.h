@@ -7,7 +7,7 @@
 #ifndef TyroBot_h
 #define TyroBot_h
 #include "Arduino.h"
-#include <Adafruit_GFX.h>    
+#include <Adafruit_GFX.h>
 #include <SPI.h>
 #include <Adafruit_ILI9341.h>
 #include <Wire.h>
@@ -36,7 +36,7 @@ public:
   int TS_MINY;
   int TS_MAXX;
   int TS_MAXY;
-  
+
   int mode;
 
   //battery variables
@@ -91,7 +91,7 @@ public:
   void waveRightArm(int times);
   void waveLeftArm(int times);
   void IFTT(char event[]);
-    
+
   //Setup Servos
   Servo ll;
   Servo lf;
@@ -108,7 +108,7 @@ public:
 
   //IFTT
   String token;
-  
+
 private:
   //Servo Pins
   int LEFT_LEG;
@@ -118,15 +118,15 @@ private:
   int HEAD;
   int LEFT_ARM;
   int RIGHT_ARM;
-  
-  //Step Constants
-  int LIFT_HEIGHT; 
-  int STEP_DISTANCE;
-  int STEP_SPEED; 
 
-  int LEFT_TRIM; 
+  //Step Constants
+  int LIFT_HEIGHT;
+  int STEP_DISTANCE;
+  int STEP_SPEED;
+
+  int LEFT_TRIM;
   int RIGHT_TRIM;
-     
+
   //Servo Positions when robot is at rest
   int LL_CENTER;
   int LF_CENTER;

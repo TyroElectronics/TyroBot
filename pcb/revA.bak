@@ -1008,7 +1008,7 @@ U 1 1 58728A0B
 P 8550 775
 F 0 "P3" H 8550 1025 50  0000 C CNN
 F 1 "espprog" V 8650 775 50  0000 C CNN
-F 2 "user:espprog" H 8550 775 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 8550 775 50  0001 C CNN
 F 3 "" H 8550 775 50  0000 C CNN
 	1    8550 775 
 	0    -1   -1   0   
