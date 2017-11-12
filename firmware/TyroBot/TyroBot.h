@@ -1,4 +1,4 @@
-/* TyroBot v0.1.0 Alpha
+/* TyroBot v1.0.0
  *  copyright (c) 2017 Tyro Electronics
  *  written by Tyler Spadgenske
  *  GNU General Public License 3.0
