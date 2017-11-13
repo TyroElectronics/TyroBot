@@ -1,4 +1,4 @@
-/* TyroBot v0.1.0 Alpha
+/* TyroBot v1.0.0
  *  copyright (c) 2017 Tyro Electronics
  *  written by Tyler Spadgenske
  *  GNU General Public License 3.0
@@ -108,7 +108,7 @@ void TyroBot::settings() {
   _tft->setCursor(10, 130);
   _tft->println("Firmware:");
   _tft->setCursor(140, 130);
-  _tft->println("v.0.0.1alpha");
+  _tft->println("v1.0.0");
   _tft->drawLine(0, 160, 320, 160, ILI9341_WHITE);
   while (1) {
     if (checkForPress() == true) {
