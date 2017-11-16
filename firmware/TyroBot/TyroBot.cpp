@@ -44,11 +44,11 @@ TyroBot::TyroBot(Adafruit_ILI9341 *tft, Adafruit_LIS3DH *lis)
   LEFT_ARM = 6;
 
   //Step Constants
-  LIFT_HEIGHT = 5;//Decrease if steps are too big and the robot is falling over. Increase of the robot is dragging his feet
-  STEP_DISTANCE = 20; //Decrease if robot is tipping over or not walking straight increase of robot is taking too tiny steps
-  STEP_SPEED = 300; //in milliseconds
+  LIFT_HEIGHT = 6;//Decrease if steps are too big and the robot is falling over. Increase of the robot is dragging his feet
+  STEP_DISTANCE = 25; //Decrease if robot is tipping over or not walking straight increase of robot is taking too tiny steps
+  STEP_SPEED = 250; //in milliseconds
 
-  LEFT_TRIM = 30; //If the robot is walking to the left decrease this number in multiples of 5
+  LEFT_TRIM = 50; //If the robot is walking to the left decrease this number in multiples of 5
   RIGHT_TRIM = 140; //If the robot is walking to the right decrease this number in multiples of 5
 
   //Servo Positions when robot is at rest
@@ -740,7 +740,7 @@ void TyroBot::rightFootForward() {
   rl.attach(RIGHT_LEG);
   ll.write(LL_CENTER + STEP_DISTANCE);
   delay(500);
-  rl.write(RL_CENTER + STEP_DISTANCE + 10);
+  rl.write(RL_CENTER + STEP_DISTANCE);
   delay(STEP_SPEED);
 }
 
@@ -759,7 +759,7 @@ void TyroBot::leftFootForward() {
   rl.attach(RIGHT_LEG);
   rl.write(RL_CENTER - STEP_DISTANCE);
   delay(500);
-  ll.write(LL_CENTER - STEP_DISTANCE + 5);
+  ll.write(LL_CENTER - STEP_DISTANCE);
   delay(STEP_SPEED);
 }
 

@@ -2,12 +2,13 @@
  *  copyright (c) 2017 Tyro Electronics
  *  written by Tyler Spadgenske
  *  GNU General Public License 3.0
+ *  http://tyroelectronics.com
  */
 
 #include <TyroBot.h> //include this library whenever using TyroBot
 
-char ssid[] = "spadgenske"; //Wifi SSID 
-char pass[] = "68mustang"; //Wifi password
+char ssid[] = "ssid"; //Wifi SSID 
+char pass[] = "password"; //Wifi password
 
 Adafruit_LIS3DH lis = Adafruit_LIS3DH(); //Setup the Accelerometer
 Adafruit_ILI9341 tft = Adafruit_ILI9341(4, 9, 23, 24, -1, 22); //CS, DC, MOSI, CLK, RST, MISO (Setup the display)
